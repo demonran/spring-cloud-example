@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+
+spring.cloud.stream.bindings.input.destination: my-test-channel
+spring.cloud.stream.bindings.output.destination: my-test-channel1
+spring.cloud.stream.bindings.mq_input.destination: my-test-channel
